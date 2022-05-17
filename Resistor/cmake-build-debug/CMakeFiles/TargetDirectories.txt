@@ -1,0 +1,3 @@
+C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/CMakeFiles/Resistor.dir
+C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="EigenLapack"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\eigen\;CMake Files\eigen\cmake\;CMake Files\eigen\scripts\;CMake Files\eigen\doc\;CMake Files\eigen\doc\examples\;CMake Files\eigen\doc\special_examples\;CMake Files\eigen\doc\snippets\;CMake Files\eigen\unsupported\;CMake Files\eigen\unsupported\doc\;CMake Files\eigen\unsupported\doc\examples\;CMake Files\eigen\unsupported\doc\snippets\;CMake Files\eigen\unsupported\Eigen\;CMake Files\eigen\unsupported\Eigen\CXX11\;CMake Files\eigen\unsupported\test\;CMake Files\eigen\test\;CMake Files\eigen\failtest\;CMake Files\eigen\blas\;CMake Files\eigen\blas\testing\;CMake Files\eigen\lapack\;CMake Files\eigen\demos\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/eigen/lapack"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/eigen/lapack/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/eigen/lapack/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/eigen/lapack/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/eigen/lapack/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lapack">
+				<Option working_dir="C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/eigen/lapack"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/eigen/lapack/Makefile&quot;  VERBOSE=1 lapack"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/eigen/lapack/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/eigen/lapack/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/eigen/lapack/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="eigen_lapack_static">
+				<Option output="C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/eigen/lapack/libeigen_lapack_static.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/eigen/lapack"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/isaev/CLionProjects/Resistor/eigen"/>
+					<Add directory="C:/Users/isaev/CLionProjects/Resistor/eigen/lapack/../blas"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/eigen/lapack/Makefile&quot;  VERBOSE=1 eigen_lapack_static"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/eigen/lapack/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/eigen/lapack/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/eigen/lapack/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="eigen_lapack_static/fast">
+				<Option output="C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/eigen/lapack/libeigen_lapack_static.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/eigen/lapack"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/isaev/CLionProjects/Resistor/eigen"/>
+					<Add directory="C:/Users/isaev/CLionProjects/Resistor/eigen/lapack/../blas"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/eigen/lapack/Makefile&quot;  VERBOSE=1 eigen_lapack_static/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/eigen/lapack/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/eigen/lapack/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/eigen/lapack/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="eigen_lapack">
+				<Option output="C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/eigen/lapack/libeigen_lapack.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/eigen/lapack"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/isaev/CLionProjects/Resistor/eigen"/>
+					<Add directory="C:/Users/isaev/CLionProjects/Resistor/eigen/lapack/../blas"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/eigen/lapack/Makefile&quot;  VERBOSE=1 eigen_lapack"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/eigen/lapack/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/eigen/lapack/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/eigen/lapack/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="eigen_lapack/fast">
+				<Option output="C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/eigen/lapack/libeigen_lapack.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/eigen/lapack"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/isaev/CLionProjects/Resistor/eigen"/>
+					<Add directory="C:/Users/isaev/CLionProjects/Resistor/eigen/lapack/../blas"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/eigen/lapack/Makefile&quot;  VERBOSE=1 eigen_lapack/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/eigen/lapack/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/eigen/lapack/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/eigen/lapack/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/blas/xerbla.cpp">
+			<Option target="eigen_lapack_static"/>
+			<Option target="eigen_lapack"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/lapack/clacgv.f">
+			<Option target="eigen_lapack_static"/>
+			<Option target="eigen_lapack"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/lapack/cladiv.f">
+			<Option target="eigen_lapack_static"/>
+			<Option target="eigen_lapack"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/lapack/clarf.f">
+			<Option target="eigen_lapack_static"/>
+			<Option target="eigen_lapack"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/lapack/clarfb.f">
+			<Option target="eigen_lapack_static"/>
+			<Option target="eigen_lapack"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/lapack/clarfg.f">
+			<Option target="eigen_lapack_static"/>
+			<Option target="eigen_lapack"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/lapack/clarft.f">
+			<Option target="eigen_lapack_static"/>
+			<Option target="eigen_lapack"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/lapack/complex_double.cpp">
+			<Option target="eigen_lapack_static"/>
+			<Option target="eigen_lapack"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/lapack/complex_single.cpp">
+			<Option target="eigen_lapack_static"/>
+			<Option target="eigen_lapack"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/lapack/dladiv.f">
+			<Option target="eigen_lapack_static"/>
+			<Option target="eigen_lapack"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/lapack/dlamch.f">
+			<Option target="eigen_lapack_static"/>
+			<Option target="eigen_lapack"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/lapack/dlapy2.f">
+			<Option target="eigen_lapack_static"/>
+			<Option target="eigen_lapack"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/lapack/dlapy3.f">
+			<Option target="eigen_lapack_static"/>
+			<Option target="eigen_lapack"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/lapack/dlarf.f">
+			<Option target="eigen_lapack_static"/>
+			<Option target="eigen_lapack"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/lapack/dlarfb.f">
+			<Option target="eigen_lapack_static"/>
+			<Option target="eigen_lapack"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/lapack/dlarfg.f">
+			<Option target="eigen_lapack_static"/>
+			<Option target="eigen_lapack"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/lapack/dlarft.f">
+			<Option target="eigen_lapack_static"/>
+			<Option target="eigen_lapack"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/lapack/double.cpp">
+			<Option target="eigen_lapack_static"/>
+			<Option target="eigen_lapack"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/lapack/dsecnd_NONE.f">
+			<Option target="eigen_lapack_static"/>
+			<Option target="eigen_lapack"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/lapack/ilaclc.f">
+			<Option target="eigen_lapack_static"/>
+			<Option target="eigen_lapack"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/lapack/ilaclr.f">
+			<Option target="eigen_lapack_static"/>
+			<Option target="eigen_lapack"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/lapack/iladlc.f">
+			<Option target="eigen_lapack_static"/>
+			<Option target="eigen_lapack"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/lapack/iladlr.f">
+			<Option target="eigen_lapack_static"/>
+			<Option target="eigen_lapack"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/lapack/ilaslc.f">
+			<Option target="eigen_lapack_static"/>
+			<Option target="eigen_lapack"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/lapack/ilaslr.f">
+			<Option target="eigen_lapack_static"/>
+			<Option target="eigen_lapack"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/lapack/ilazlc.f">
+			<Option target="eigen_lapack_static"/>
+			<Option target="eigen_lapack"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/lapack/ilazlr.f">
+			<Option target="eigen_lapack_static"/>
+			<Option target="eigen_lapack"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/lapack/second_NONE.f">
+			<Option target="eigen_lapack_static"/>
+			<Option target="eigen_lapack"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/lapack/single.cpp">
+			<Option target="eigen_lapack_static"/>
+			<Option target="eigen_lapack"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/lapack/sladiv.f">
+			<Option target="eigen_lapack_static"/>
+			<Option target="eigen_lapack"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/lapack/slamch.f">
+			<Option target="eigen_lapack_static"/>
+			<Option target="eigen_lapack"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/lapack/slapy2.f">
+			<Option target="eigen_lapack_static"/>
+			<Option target="eigen_lapack"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/lapack/slapy3.f">
+			<Option target="eigen_lapack_static"/>
+			<Option target="eigen_lapack"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/lapack/slarf.f">
+			<Option target="eigen_lapack_static"/>
+			<Option target="eigen_lapack"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/lapack/slarfb.f">
+			<Option target="eigen_lapack_static"/>
+			<Option target="eigen_lapack"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/lapack/slarfg.f">
+			<Option target="eigen_lapack_static"/>
+			<Option target="eigen_lapack"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/lapack/slarft.f">
+			<Option target="eigen_lapack_static"/>
+			<Option target="eigen_lapack"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/lapack/zlacgv.f">
+			<Option target="eigen_lapack_static"/>
+			<Option target="eigen_lapack"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/lapack/zladiv.f">
+			<Option target="eigen_lapack_static"/>
+			<Option target="eigen_lapack"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/lapack/zlarf.f">
+			<Option target="eigen_lapack_static"/>
+			<Option target="eigen_lapack"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/lapack/zlarfb.f">
+			<Option target="eigen_lapack_static"/>
+			<Option target="eigen_lapack"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/lapack/zlarfg.f">
+			<Option target="eigen_lapack_static"/>
+			<Option target="eigen_lapack"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/lapack/zlarft.f">
+			<Option target="eigen_lapack_static"/>
+			<Option target="eigen_lapack"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\eigen\"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/CTestConfig.cmake">
+			<Option virtualFolder="CMake Files\eigen\"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/CTestCustom.cmake.in">
+			<Option virtualFolder="CMake Files\eigen\"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/cmake/Eigen3Config.cmake.in">
+			<Option virtualFolder="CMake Files\eigen\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/cmake/EigenConfigureTesting.cmake">
+			<Option virtualFolder="CMake Files\eigen\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/cmake/EigenDetermineOSVersion.cmake">
+			<Option virtualFolder="CMake Files\eigen\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/cmake/EigenSmokeTestList.cmake">
+			<Option virtualFolder="CMake Files\eigen\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/cmake/EigenTesting.cmake">
+			<Option virtualFolder="CMake Files\eigen\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/cmake/FindAdolc.cmake">
+			<Option virtualFolder="CMake Files\eigen\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/cmake/FindCHOLMOD.cmake">
+			<Option virtualFolder="CMake Files\eigen\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/cmake/FindFFTW.cmake">
+			<Option virtualFolder="CMake Files\eigen\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/cmake/FindGoogleHash.cmake">
+			<Option virtualFolder="CMake Files\eigen\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/cmake/FindHWLOC.cmake">
+			<Option virtualFolder="CMake Files\eigen\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/cmake/FindKLU.cmake">
+			<Option virtualFolder="CMake Files\eigen\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/cmake/FindMPFR.cmake">
+			<Option virtualFolder="CMake Files\eigen\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/cmake/FindMPREAL.cmake">
+			<Option virtualFolder="CMake Files\eigen\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/cmake/FindPASTIX.cmake">
+			<Option virtualFolder="CMake Files\eigen\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/cmake/FindSPQR.cmake">
+			<Option virtualFolder="CMake Files\eigen\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/cmake/FindStandardMathLibrary.cmake">
+			<Option virtualFolder="CMake Files\eigen\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/cmake/FindSuperLU.cmake">
+			<Option virtualFolder="CMake Files\eigen\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/cmake/FindUMFPACK.cmake">
+			<Option virtualFolder="CMake Files\eigen\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/scripts/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\eigen\scripts\"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/scripts/buildtests.in">
+			<Option virtualFolder="CMake Files\eigen\scripts\"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/scripts/cdashtesting.cmake.in">
+			<Option virtualFolder="CMake Files\eigen\scripts\"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/scripts/check.in">
+			<Option virtualFolder="CMake Files\eigen\scripts\"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/scripts/debug.in">
+			<Option virtualFolder="CMake Files\eigen\scripts\"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/scripts/release.in">
+			<Option virtualFolder="CMake Files\eigen\scripts\"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/doc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\eigen\doc\"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/doc/Doxyfile.in">
+			<Option virtualFolder="CMake Files\eigen\doc\"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/doc/eigendoxy_footer.html.in">
+			<Option virtualFolder="CMake Files\eigen\doc\"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/doc/eigendoxy_header.html.in">
+			<Option virtualFolder="CMake Files\eigen\doc\"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/doc/eigendoxy_layout.xml.in">
+			<Option virtualFolder="CMake Files\eigen\doc\"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/doc/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\eigen\doc\examples\"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/doc/special_examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\eigen\doc\special_examples\"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/doc/snippets/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\eigen\doc\snippets\"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/doc/snippets/compile_snippet.cpp.in">
+			<Option virtualFolder="CMake Files\eigen\doc\snippets\"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/unsupported/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\eigen\unsupported\"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/unsupported/doc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\eigen\unsupported\doc\"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/unsupported/doc/eigendoxy_layout.xml.in">
+			<Option virtualFolder="CMake Files\eigen\unsupported\doc\"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/unsupported/doc/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\eigen\unsupported\doc\examples\"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/unsupported/doc/snippets/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\eigen\unsupported\doc\snippets\"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/unsupported/Eigen/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\eigen\unsupported\Eigen\"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/unsupported/Eigen/CXX11/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\eigen\unsupported\Eigen\CXX11\"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/unsupported/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\eigen\unsupported\test\"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\eigen\test\"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/failtest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\eigen\failtest\"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/blas/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\eigen\blas\"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/blas/testing/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\eigen\blas\testing\"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/lapack/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\eigen\lapack\"/>
+		</Unit>
+		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/eigen/demos/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\eigen\demos\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

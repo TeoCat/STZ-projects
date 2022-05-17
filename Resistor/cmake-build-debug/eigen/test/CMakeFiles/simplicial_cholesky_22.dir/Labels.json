@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/isaev/CLionProjects/Resistor/eigen/test/simplicial_cholesky.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildOfficial"
+		],
+		"name" : "simplicial_cholesky_22"
+	}
+}
