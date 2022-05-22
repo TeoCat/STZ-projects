@@ -1,0 +1,3 @@
+C:/Users/isaev/CLionProjects/ODU/cmake-build-debug/CMakeFiles/ODU.dir
+C:/Users/isaev/CLionProjects/ODU/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/isaev/CLionProjects/ODU/cmake-build-debug/CMakeFiles/rebuild_cache.dir
