@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/isaev/CLionProjects/Resistor/main.cpp" "C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/CMakeFiles/Resistor.dir/main.cpp.obj"
+  "C:/Users/isaev/Documents/GitHub/STZ-projects/Resistor/main.cpp" "C:/Users/isaev/Documents/GitHub/STZ-projects/Resistor/cmake-build-debug/CMakeFiles/Resistor.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../eigen"
+  "C:/Users/isaev/CLionProjects/Resistor/eigen"
   )
 
 # Targets to which this target links.

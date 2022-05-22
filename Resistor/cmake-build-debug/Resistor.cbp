@@ -5,21 +5,21 @@
 		<Option title="Resistor"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\eigen\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\CLionProjects\;CMake Files\..\..\..\..\CLionProjects\Resistor\;CMake Files\..\..\..\..\CLionProjects\Resistor\cmake-build-debug\;CMake Files\..\..\..\..\CLionProjects\Resistor\cmake-build-debug\eigen\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug"/>
+				<Option working_dir="C:/Users/isaev/Documents/GitHub/STZ-projects/Resistor/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/Documents/GitHub/STZ-projects/Resistor/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/Documents/GitHub/STZ-projects/Resistor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/Documents/GitHub/STZ-projects/Resistor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/Documents/GitHub/STZ-projects/Resistor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Resistor">
-				<Option output="C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/Resistor.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug"/>
+				<Option output="C:/Users/isaev/Documents/GitHub/STZ-projects/Resistor/cmake-build-debug/Resistor.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/isaev/Documents/GitHub/STZ-projects/Resistor/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -33,15 +33,15 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/Makefile&quot;  VERBOSE=1 Resistor"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/Documents/GitHub/STZ-projects/Resistor/cmake-build-debug/Makefile&quot;  VERBOSE=1 Resistor"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/Documents/GitHub/STZ-projects/Resistor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/Documents/GitHub/STZ-projects/Resistor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/Documents/GitHub/STZ-projects/Resistor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Resistor/fast">
-				<Option output="C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/Resistor.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug"/>
+				<Option output="C:/Users/isaev/Documents/GitHub/STZ-projects/Resistor/cmake-build-debug/Resistor.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/isaev/Documents/GitHub/STZ-projects/Resistor/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -55,47 +55,47 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/Makefile&quot;  VERBOSE=1 Resistor/fast"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/Documents/GitHub/STZ-projects/Resistor/cmake-build-debug/Makefile&quot;  VERBOSE=1 Resistor/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/Documents/GitHub/STZ-projects/Resistor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/Documents/GitHub/STZ-projects/Resistor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/Documents/GitHub/STZ-projects/Resistor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug"/>
+				<Option working_dir="C:/Users/isaev/Documents/GitHub/STZ-projects/Resistor/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/Documents/GitHub/STZ-projects/Resistor/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/Documents/GitHub/STZ-projects/Resistor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/Documents/GitHub/STZ-projects/Resistor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/Documents/GitHub/STZ-projects/Resistor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug"/>
+				<Option working_dir="C:/Users/isaev/Documents/GitHub/STZ-projects/Resistor/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/Documents/GitHub/STZ-projects/Resistor/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/Documents/GitHub/STZ-projects/Resistor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/Documents/GitHub/STZ-projects/Resistor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/isaev/Documents/GitHub/STZ-projects/Resistor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/main.cpp">
+		<Unit filename="C:/Users/isaev/Documents/GitHub/STZ-projects/Resistor/main.cpp">
 			<Option target="Resistor"/>
 		</Unit>
-		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/CMakeLists.txt">
+		<Unit filename="C:/Users/isaev/Documents/GitHub/STZ-projects/Resistor/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/eigen/Eigen3Config.cmake">
-			<Option virtualFolder="CMake Files\cmake-build-debug\eigen\"/>
+		<Unit filename="C:/Users/isaev/Documents/GitHub/STZ-projects/Resistor/../../../../CLionProjects/Resistor/cmake-build-debug/eigen/Eigen3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\CLionProjects\Resistor\cmake-build-debug\eigen\"/>
 		</Unit>
-		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/eigen/Eigen3ConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\cmake-build-debug\eigen\"/>
+		<Unit filename="C:/Users/isaev/Documents/GitHub/STZ-projects/Resistor/../../../../CLionProjects/Resistor/cmake-build-debug/eigen/Eigen3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\CLionProjects\Resistor\cmake-build-debug\eigen\"/>
 		</Unit>
-		<Unit filename="C:/Users/isaev/CLionProjects/Resistor/cmake-build-debug/eigen/Eigen3Targets.cmake">
-			<Option virtualFolder="CMake Files\cmake-build-debug\eigen\"/>
+		<Unit filename="C:/Users/isaev/Documents/GitHub/STZ-projects/Resistor/../../../../CLionProjects/Resistor/cmake-build-debug/eigen/Eigen3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\CLionProjects\Resistor\cmake-build-debug\eigen\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

@@ -2,8 +2,8 @@
 #include <vector>
 #include <iostream>
 
-#include "eigen/Eigen/Core"
-#include "eigen/Eigen/LU"
+#include <Eigen/Core>
+#include <Eigen/LU>
 
 template<typename M>
 M load_csv(const std::string &path) {

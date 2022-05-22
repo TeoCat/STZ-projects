@@ -6,8 +6,6 @@
 
 #IncludeRegexTransform: 
 
-../eigen/Eigen/src/Core/arch/HIP/hcc/math_constants.h
-
 C:/Users/isaev/CLionProjects/Resistor/eigen/Eigen/Core
 src/Core/util/DisableStupidWarnings.h
 C:/Users/isaev/CLionProjects/Resistor/eigen/Eigen/src/Core/util/DisableStupidWarnings.h
@@ -658,6 +656,8 @@ C:/Users/isaev/CLionProjects/Resistor/eigen/Eigen/src/Core/arch/GPU/PacketMath.h
 
 C:/Users/isaev/CLionProjects/Resistor/eigen/Eigen/src/Core/arch/GPU/TypeCasting.h
 
+C:/Users/isaev/CLionProjects/Resistor/eigen/Eigen/src/Core/arch/HIP/hcc/math_constants.h
+
 C:/Users/isaev/CLionProjects/Resistor/eigen/Eigen/src/Core/arch/MSA/Complex.h
 iostream
 -
@@ -936,15 +936,15 @@ C:/Users/isaev/CLionProjects/Resistor/eigen/Eigen/src/plugins/ReshapedMethods.h
 ReshapedMethods.h
 C:/Users/isaev/CLionProjects/Resistor/eigen/Eigen/src/plugins/ReshapedMethods.h
 
-C:/Users/isaev/CLionProjects/Resistor/main.cpp
+C:/Users/isaev/Documents/GitHub/STZ-projects/Resistor/main.cpp
 fstream
 -
 vector
 -
 iostream
 -
-eigen/Eigen/Core
-C:/Users/isaev/CLionProjects/Resistor/eigen/Eigen/Core
-eigen/Eigen/LU
-C:/Users/isaev/CLionProjects/Resistor/eigen/Eigen/LU
+Eigen/Core
+-
+Eigen/LU
+-
 
